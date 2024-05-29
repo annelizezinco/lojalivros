@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    background-color: #000000;
+    background-color: #ffffff;
     height: 100hv;
 }
 
@@ -56,7 +56,7 @@ header a{
 }
 
 header a:hover{
-    color: #fff;
+    color: #000000;
     transform: scale(1.05);
 }
 
@@ -83,44 +83,48 @@ header .criado-por button:hover{
     box-shadow: 0px 0px 8px #ff002f;
 }
 
-/*TOPO*/
-section.topo{
+/*ATÉ O VERÃO TERMINAR*/
+section.ate-o-verao-terminar{
     padding: 40px 4%;
 }
 
-section.topo .flex{
+section.ate-o-verao-terminar .flex{
     align-items: center;
     justify-content: center;
     gap: 90px;
 }
 
-.topo h1{
-    color: #fff;
+.ate-o-verao-terminar h1{
+    color: #000000;
     font-size: 42px;
     line-height: 40px;
 }
 
-.topo .txt-topo-site h1 span{
+.ate-o-verao-terminar .txt-livro-1 h1 span{
     color: #ff002f;
     display: inline;
     font-size: 42px;
 }
 
-.topo .txt-topo-site p{
-    color: #fff;
-    margin: 40px 0;
-    font-size: 20px;
+.ate-o-verao-terminar .txt-livro-1 p{
+    color: #000000;
+    margin: 50px 0;
+    font-size: 25px;
 }
 
-.img-topo-site img{
-    max-width: 400px;
-    max-height: 400px;
+.ate-o-verao-terminar .txt-livro-1 i{
+    color: #ff002f;
+}
+
+.img-livro-1 img{
+    max-width: 350px;
+    max-height: 350px;
     width: auto;
     height: auto;
     transition: .2s;
 }
 
-.img-topo-site img:hover{
+.img-livro-1 img:hover{
     transform: scale(1.05);
 }
 
@@ -129,7 +133,7 @@ section.teorias{
     padding: 40px 4%;
 }
 
-section.teorias .flex{
+section.teorias .fl-topo-siteex{
     align-items: center;
     justify-content: center;
     gap: 90px;
