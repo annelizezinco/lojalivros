@@ -84,6 +84,24 @@ header .criado-por button:hover{
 }
 
 /*ATÉ O VERÃO TERMINAR*/
+section.ate-o-verao-terminar button{
+    background-color: #ff002f;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .2s;
+}
+
+section.ate-o-verao-terminar button:hover{
+    box-shadow: 0px 0px 8px #ff002f;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
 section.ate-o-verao-terminar{
     padding: 40px 4%;
     text-align: justify;
@@ -131,6 +149,24 @@ section.ate-o-verao-terminar .flex{
 }
 
 /*É ASSIM QUE ACABA*/
+section.assim-que-acaba button{
+    background-color: #ff002f;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .2s;
+}
+
+section.assim-que-acaba button:hover{
+    box-shadow: 0px 0px 8px #ff002f;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
 section.assim-que-acaba{
     padding: 40px 4%;
 }
@@ -321,14 +357,14 @@ section.teorias .fl-topo-siteex{
 }
 
 /*BOTÕES TEORIAS*/
-    ul.botao{
+    ul.comprar{
         list-style-type: none;
         display: inline-flex;
         position: relative;
         gap: 60px;
     }
 
-    ul.botao li{
+    ul.comprar li{
         width: 80px;
         height: 80px;
         background-color: #ff002f;
@@ -341,22 +377,23 @@ section.teorias .fl-topo-siteex{
         transition: .2s;
     }
     
-    ul.botao li:hover{
+    ul.comprar li:hover{
         width: 180px;
+        cursor: pointer;
     }
     
-    ul.botao li span{
+    ul.comprar li span{
         position: absolute;
     }
     
-    ul.botao li .icone i{
+    ul.comprar li .icone i{
         color: #000000;
         font-size: 2.2em;
         transition: .2s;
         transition-delay: .1s;
     }
     
-    ul.botao li .texto{
+    ul.comprar li .texto{
         color: #000000;
         font-size: 20px;
         transform: scale(0);
@@ -364,17 +401,18 @@ section.teorias .fl-topo-siteex{
         transition-delay: .1s;
     }
     
-    ul.botao li:hover .texto{
+    ul.comprar li:hover .texto{
         transform: scale(1);
+        cursor: pointer;
     }
     
-    ul.botao li:hover .icone{
+    ul.comprar li:hover .icone{
         transform: scale(0);
         transition: .2s;
         transition-delay: .1s;
     }
     
-    ul.botao li::before{
+    ul.comprar li::before{
         content: '';
         position: absolute;
         background-image: linear-gradient(45deg, var(--cor1), var(--cor2));
@@ -383,7 +421,7 @@ section.teorias .fl-topo-siteex{
         border-radius: 60px;
     }
     
-    ul.botao li:hover::before{
+    ul.comprar li:hover::before{
         opacity: 1;
     }
 
