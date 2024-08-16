@@ -83,7 +83,15 @@ header .criado-por button:hover{
     box-shadow: 0px 0px 8px #ff002f;
 }
 
-h1.suspense{
+h1.romance{
+    color: #000000;
+    font-size: 50px;
+    line-height: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+h1.fantasia{
     color: #000000;
     font-size: 50px;
     line-height: 40px;
@@ -92,27 +100,9 @@ h1.suspense{
 }
 
 /*ATÉ O VERÃO TERMINAR*/
-section.ate-o-verao-terminar button{
-    background-color: #ff002f;
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transform: scale(1);
-    transition: .2s;
-}
-
-section.ate-o-verao-terminar button:hover{
-    box-shadow: 0px 0px 8px #ff002f;
-    transform: scale(1.05);
-    transition: .2s;
-}
-
+/*CARAVAL*/
 section.ate-o-verao-terminar{
     padding: 40px 4%;
-    text-align: justify;
 }
 
 section.ate-o-verao-terminar .flex{
@@ -137,6 +127,7 @@ section.ate-o-verao-terminar .flex{
     color: #000000;
     margin: 50px 0;
     font-size: 25px;
+    text-align: justify;
 }
 
 .ate-o-verao-terminar .txt-livro-1 i{
@@ -149,7 +140,6 @@ section.ate-o-verao-terminar .flex{
     width: auto;
     height: auto;
     transition: .2s;
-    
 }
 
 .img-livro-1 img:hover{
@@ -157,24 +147,6 @@ section.ate-o-verao-terminar .flex{
 }
 
 /*É ASSIM QUE ACABA*/
-section.assim-que-acaba button{
-    background-color: #ff002f;
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transform: scale(1);
-    transition: .2s;
-}
-
-section.assim-que-acaba button:hover{
-    box-shadow: 0px 0px 8px #ff002f;
-    transform: scale(1.05);
-    transition: .2s;
-}
-
 section.assim-que-acaba{
     padding: 40px 4%;
 }
@@ -201,6 +173,7 @@ section.assim-que-acaba .flex{
     color: #000000;
     margin: 50px 0;
     font-size: 25px;
+    text-align: justify;
 }
 
 .assim-que-acaba .txt-livro-2 i{
@@ -219,78 +192,9 @@ section.assim-que-acaba .flex{
     transform: scale(1.05);
 }
 
-/*VERMELHO, BRANCO E SANGUE AZUL*/
-section.verm-branco-sangue-azul{
-    padding: 40px 4%;
-}
-
-section.verm-branco-sangue-azul .flex{
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
-}
-
-.verm-branco-sangue-azul h1{
-    color: #000000;
-    font-size: 42px;
-    line-height: 40px;
-}
-
-.verm-branco-sangue-azul .txt-livro-3 h1 span{
-    color: #ff002f;
-    display: inline;
-    font-size: 42px;
-}
-
-.verm-branco-sangue-azul .txt-livro-3 h1 span.azul{
-    color: #0059ff;
-    display: inline;
-    font-size: 42px;
-}
-
-.verm-branco-sangue-azul .txt-livro-3 p{
-    color: #000000;
-    margin: 50px 0;
-    font-size: 25px;
-}
-
-.verm-branco-sangue-azul .txt-livro-3 i{
-    color: #ff002f;
-}
-
-.img-livro-3 img{
-    max-width: 350px;
-    max-height: 350px;
-    width: auto;
-    height: auto;
-    transition: .2s;
-}
-
-.img-livro-3 img:hover{
-    transform: scale(1.05);
-}
-
 /*EU TE AMEI EM OUTRA VIDA*/
 section.eu-te-amei{
     padding: 40px 4%;
-}
-
-section.eu-te-amei button{
-    background-color: #ff002f;
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transform: scale(1);
-    transition: .2s;
-}
-
-section.eu-te-amei button:hover{
-    box-shadow: 0px 0px 8px #ff002f;
-    transform: scale(1.05);
-    transition: .2s;
 }
 
 section.eu-te-amei .flex{
@@ -305,29 +209,24 @@ section.eu-te-amei .flex{
     line-height: 40px;
 }
 
-.eu-te-amei .txt-livro-4 h1 span{
+.eu-te-amei .txt-livro-3 h1 span{
     color: #ff002f;
     display: inline;
     font-size: 42px;
 }
 
-.eu-te-amei .txt-livro-4 h1 span.azul{
-    color: #0059ff;
-    display: inline;
-    font-size: 42px;
-}
-
-.eu-te-amei .txt-livro-4 p{
+.eu-te-amei .txt-livro-3 p{
     color: #000000;
     margin: 50px 0;
     font-size: 25px;
+    text-align: justify;
 }
 
-.eu-te-amei .txt-livro-4 i{
+.eu-te-amei .txt-livro-3 i{
     color: #ff002f;
 }
 
-.img-livro-4 img{
+.img-livro-3 img{
     max-width: 350px;
     max-height: 350px;
     width: auto;
@@ -335,70 +234,7 @@ section.eu-te-amei .flex{
     transition: .2s;
 }
 
-.img-livro-4 img:hover{
-    transform: scale(1.05);
-}
-
-/*É ASSIM QUE ACABA*/
-section.assim-que-acaba button{
-    background-color: #ff002f;
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transform: scale(1);
-    transition: .2s;
-}
-
-section.assim-que-acaba button:hover{
-    box-shadow: 0px 0px 8px #ff002f;
-    transform: scale(1.05);
-    transition: .2s;
-}
-
-section.assim-que-acaba{
-    padding: 40px 4%;
-}
-
-section.assim-que-acaba .flex{
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
-}
-
-.assim-que-acaba h1{
-    color: #000000;
-    font-size: 42px;
-    line-height: 40px;
-}
-
-.assim-que-acaba .txt-livro-2 h1 span{
-    color: #ff002f;
-    display: inline;
-    font-size: 42px;
-}
-
-.assim-que-acaba .txt-livro-2 p{
-    color: #000000;
-    margin: 50px 0;
-    font-size: 25px;
-}
-
-.assim-que-acaba .txt-livro-2 i{
-    color: #ff002f;
-}
-
-.img-livro-2 img{
-    max-width: 350px;
-    max-height: 350px;
-    width: auto;
-    height: auto;
-    transition: .2s;
-}
-
-.img-livro-2 img:hover{
+.img-livro-3 img:hover{
     transform: scale(1.05);
 }
 
@@ -419,29 +255,30 @@ section.rainha-vermelha .flex{
     line-height: 40px;
 }
 
-.rainha-vermelha .txt-livro-5 h1 span{
+.rainha-vermelha .txt-livro-4 h1 span{
     color: #ff002f;
     display: inline;
     font-size: 42px;
 }
 
-.rainha-vermelha .txt-livro-5 h1 span.azul{
+.rainha-vermelha .txt-livro-4 h1 span.azul{
     color: #0059ff;
     display: inline;
     font-size: 42px;
 }
 
-.rainha-vermelha .txt-livro-5 p{
+.rainha-vermelha .txt-livro-4 p{
     color: #000000;
     margin: 50px 0;
     font-size: 25px;
+    text-align: justify;
 }
 
-.rainha-vermelha .txt-livro-5 i{
+.rainha-vermelha .txt-livro-4 i{
     color: #ff002f;
 }
 
-.img-livro-5 img{
+.img-livro-4 img{
     max-width: 350px;
     max-height: 350px;
     width: auto;
@@ -449,11 +286,11 @@ section.rainha-vermelha .flex{
     transition: .2s;
 }
 
-.img-livro-5 img:hover{
+.img-livro-4 img:hover{
     transform: scale(1.05);
 }
 
-/*É ASSIM QUE ACABA*/
+/*CARAVAL*/
 section.caraval{
     padding: 40px 4%;
 }
@@ -470,19 +307,66 @@ section.caraval .flex{
     line-height: 40px;
 }
 
-.caraval .txt-livro-6 h1 span{
+.caraval .txt-livro-5 h1 span{
     color: #ff002f;
     display: inline;
     font-size: 42px;
 }
 
-.caraval .txt-livro-6 p{
+.caraval .txt-livro-5 p{
     color: #000000;
     margin: 50px 0;
     font-size: 25px;
+    text-align: justify;
 }
 
-.caraval .txt-livro-6 i{
+.caraval .txt-livro-5 i{
+    color: #ff002f;
+}
+
+.img-livro-5 img{
+    max-width: 350px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    transition: .2s;
+}
+
+.img-livro-5 img:hover{
+    transform: scale(1.05);
+}
+
+/*O PRINCIPE CRUEL*/
+section.principe-cruel{
+    padding: 40px 4%;
+}
+
+section.principe-cruel .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.principe-cruel h1{
+    color: #000000;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.principe-cruel .txt-livro-6 h1 span{
+    color: #ff002f;
+    display: inline;
+    font-size: 42px;
+}
+
+.principe-cruel .txt-livro-6 p{
+    color: #000000;
+    margin: 50px 0;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.principe-cruel .txt-livro-6 i{
     color: #ff002f;
 }
 
@@ -519,4 +403,17 @@ footer .flex{
     color: #ff002f;
     font-size: 50px;
     text-align: justify;
+}
+
+@media screen and (max-width: 1020px){
+
+    /*CLASSES GERAIS*/
+    .flex{
+        flex-direction: column;
+    }
+
+    /*CABEÇALHO*/
+    .menu, .criado-por{
+        display: none;
+    }
 }
